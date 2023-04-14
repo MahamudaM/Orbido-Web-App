@@ -11,7 +11,7 @@ const RewardSection = () => {
             <div className='max-w-6xl mx-auto grid lg:grid-cols-2 md:grid-cols-1 gap-[4.87rem] '>
                 {/* left side content */}
             <div className=''>
-<h1 className=' text-5xl text-[#FFFFFF] font-semibold tracking-[1%] leading-[4.8rem]'>You do the business,<br/>
+<h1 className=' text-4xl text-[#FFFFFF] font-semibold tracking-[1%] leading-[4.8rem]'>You do the business,<br/>
  we’ll handle the money.</h1>
   <span className='text-[#FFFFFF] text-[1.12rem] leading-[1.91rem] font-normal'>With the right credit card, you can improve your financial life <br/>
    by building credit, earning rewards and saving money. But <br/>
@@ -33,7 +33,7 @@ const RewardSection = () => {
             </div>
             </div>
 {/* send mony */}
-<div className={`flex flex-row gap-[2.37rem] my-9`}>
+<div className={`flex flex-row gap-[2.37rem] my-9 bg-gradient-to-r from-[#11101D] p-4 to-[#2b2a2a] rounded-[1.25rem]`}>
             <img className='h-7 w-8 bg-[#00F6FF]' src={secure} alt="" />
             <div className='flex flex-col'>
 <h4 className='text-[#FFFFFF] font-semibold font-xl capitalize leading-[1.46rem] tracking-[1%]'>100% Secured</h4>
